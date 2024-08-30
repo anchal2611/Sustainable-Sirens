@@ -1,0 +1,72 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111; /* Rich Black - Dark background color. */
+}
+nav a:hover {
+    color: #000; 
+    border-right: 5px solid white;
+    background-color: #ff6600;
+    padding: 8px;
+    margin: 10px;
+    text-decoration: none;
+}
+header {
+    background-color: #222; /* Charcoal Gray - Header background. */
+    color: #fff; /* White text on dark background. */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+nav li a{
+  text-decoration: none;
+  color: #ff6600;
+}
+section {
+    padding: 40px;
+    text-align: center;
+    background-color: #333; /* Dark Seafoam - Section background color. */
+    color: #fff; /* White text on dark background. */
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-slide {
+    flex: 0 0 100%;
+    transition: transform 1s;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #222; /* Charcoal Gray - Footer background matching the header. */
+    color: #fff; /* White text on dark background. */
+    text-align: center;
+    padding: 10px 0;
+}
+
